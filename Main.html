@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Little Guider</title>
+    <link rel="shortcut icon" href="./image/title_icon.ico" type="image/x-icon"/> 
+    <style>
+        body {background-image: url("./image/background.png")}
+        #img_container img{
+            position:absolute;
+            top:190px;
+            left:234px;
+            margin-top:-25px;
+            margin-left:-25px;
+        }
+        #title_container img{
+            position:absolute;
+            top:70px;
+            left:700px;
+            margin-top:-25px;
+            margin-left:-25px;
+        }
+    </style>  
 </head>
 <body>
-    <h1>This is Main Page.</h1>
+    <div id="title_container">
+        <img src="./image/mainTiltle.png" alt="mainTiltle">
+    </div>
+    <div id="img_container">
+        <img src="./image/centerBox.png" alt="centerBox">
+    </div>
 </body>
 </html>
