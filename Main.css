@@ -1,10 +1,125 @@
 body {
+  margin: 0 auto;
   background-color: #fffbcb;
-  width: 100%;
-  height: 100%;
+  width: 1920px;
+  height: 1080px;
 }
-div {
-  background-color: #fffbcb;
-  width: 1453px;
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#MainWhiteBlock {
+  z-index: 2;
+  position: absolute;
+  background-color: #ffffff;
+  width: 1440px;
   height: 650px;
+  margin: 215px 240px;
+}
+#MainTitle {
+  position: absolute;
+  margin: 85px 700px;
+}
+#mainImage1 {
+  padding: 45px 50px;
+}
+#mainImgae1-1 {
+  position: absolute;
+  width: 600px;
+  height: 101px;
+  top: 200px;
+  left: 700px;
+  font-weight: 500;
+}
+#mainImgae1-2 {
+  position: absolute;
+  display: inline-block;
+  width: 600px;
+  height: 101px;
+  margin-top: -270px;
+  color: #ed5390;
+  margin-left: 700px;
+  font-weight: bold;
+  font-family: "yg-jalnan";
+}
+#mainImgae1-3 {
+  position: absolute;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-top: -270px;
+  margin-left: 1050px;
+  font-weight: bold;
+}
+#mainImage2 {
+  z-index: 1;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: -222px;
+}
+#mainPlane {
+  z-index: 3;
+  position: absolute;
+  margin: 616px 123px 0px 1180px;
+}
+#mainBrush {
+  z-index: 4;
+  position: absolute;
+  margin: 83px 130px 712px 1546px;
+}
+#mainPaint {
+  z-index: 3;
+  position: absolute;
+  margin: 121px 186px 604px 1421px;
+}
+#mainFlag {
+  z-index: 3;
+  position: absolute;
+  margin: 121px 186px 604px 58px;
+}
+#Test {
+  z-index: 10;
+  background-color: blue;
+}
+#topMenu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 120px;
+  margin-left: 230px;
+}
+#topMenu ul li {
+  margin-right: 250px;
+  float: left;
+  list-style: none;
+  color: #ed5390;
+  line-height: 30px;
+  text-align: center;
+}
+#topMenu :nth-child(2) {
+  margin-right: 600px;
+}
+#topMenu .menuLink {
+  text-decoration: none;
+  color: #ed5390;
+  width: 150px;
+  font-size: 20px;
+  font-family: "yg-jalnan";
+}
+#topMenu .menuLink:hover {
+  cursor: pointer;
+}
+#topMenu li:hover {
+  transform: rotate(9deg);
+}
+#circleIcon {
+  position: relative;
+  top: -70px;
+  left: 695px;
+  z-index: 3;
+}
+#circleIcon:hover {
+  fill: #ed5685;
 }
