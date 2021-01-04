@@ -5,30 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Little Guider</title>
     <link rel="shortcut icon" href="./image/title_icon.ico" type="image/x-icon"/> 
-    <style>
-        body {background-image: url("./image/background.png")}
-        #img_container img{
-            position:absolute;
-            top:190px;
-            left:234px;
-            margin-top:-25px;
-            margin-left:-25px;
-        }
-        #title_container img{
-            position:absolute;
-            top:70px;
-            left:700px;
-            margin-top:-25px;
-            margin-left:-25px;
-        }
-    </style>  
+    <link rel="stylesheet" href="./Main.css"/> 
 </head>
 <body>
-    <div id="title_container">
-        <img src="./image/mainTiltle.png" alt="mainTiltle">
+    <div id="MainTitle">
+        <a href="./Main.html"><img src="./image/mainTiltle.png" alt="mainTiltle"></a>
     </div>
-    <div id="img_container">
-        <img src="./image/centerBox.png" alt="centerBox">
-    </div>
+
+    <div id="MainWhiteBlock">
+        <div id="mainImage1">
+            <img src="./image/mainImage1.png" alt="mainImage1">
+        </div>
+        <h1 id="mainImgae1-1"><b>"My Little Guider"</b>에서<br>나만의 여행 가이드북을 만들어보세요.</h1>
+        <div id="mainImgae1-2"><h1 style="display:inline">가이드북 제작하러 가기</h1></div>
+        <div id="mainImgae1-3"><a href="#"><img src=./image/mainArrow.png alt="mainArrow"></a></div>
+        
+        <svg id = "circleIcon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+            <g id = "circleIcon" data-name="타원 1" fill="#ffffff" stroke="#707070" stroke-width="1">
+              <circle cx="9" cy="9" r="9" stroke="none"/>
+              <circle cx="9" cy="9" r="8.5" fill="none"/>
+            </g>
+        </svg>
+          
+    </div> 
+    <nav id="topMenu" >
+            <ul>
+                    <li><a class="menuLink" href="#">소개</a></li>
+                    <li><a class="menuLink" href="#">제작하기</a></li>
+                    <li><a class="menuLink" href="#">마이 페이지</a></li>
+                    <li><a class="menuLink" href="#">로그인</a></li>
+            </ul>
+        </nav>
+    <div id="mainImage2"><img src="./image/mainImage2.png" alt="mainImage2"></div>
+    <div id="mainPlane"><img src="./image/mainPlane.png" alt="mainPlane"></div>
+    <div id="mainBrush"><img src="./image/mainBrush.png" alt="mainBrush"></div>
+    <div id="mainPaint"><img src="./image/mainPaint.png" alt="mainPaint"></div>
+    <div id="mainFlag"><img src="./image/mainFlag.png" alt="mainFlag"></div>
+
+
 </body>
 </html>
