@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+* {
+  font-family: "yg-jalnan";
+  font-weight: 300;
+}
+body,
+html {
+  width: 1920px;
+  height: 1080px;
+  background-color: #fffbcb;
+}
+.header {
+  background-color: #fffbcb;
+  width: 1920px;
+  height: 100px;
+  position: fixed;
+  top: 0%;
+  border-bottom: solid 1px #e0e0e0;
+  z-index: 10;
+}
+.menu {
+  position: absolute;
+  left: 1200px;
+  top: 12px;
+  font-size: 22px;
+}
+.menu ul li {
+  float: left;
+  margin-right: 100px;
+  list-style: none;
+  color: #ed5390;
+}
+.menu li:hover {
+  color: #7a3a52;
+  cursor: pointer;
+}
+.logo {
+  width: 15%;
+  position: absolute;
+  top: 22px;
+  left: 50px;
+}
+.artboard {
+  width: 1123px;
+  height: 794px;
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  box-shadow: 3px 3px 3px#c9c4c4;
+  border-radius: 10px;
+  border-style: none;
+}
+.vertical-line {
+  height: 100%;
+  border-left: solid 1px#c9c4c4;
+  position: relative;
+  left: 560px;
+}
+.pageBox {
+  width: 800px;
+  height: 80px;
+  position: absolute;
+  top: 980px;
+  left: 210px;
+  border-style: none;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.pageBox button {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #68d2a5;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+  left: 260px;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  outline: none;
+}
+.pageBox button:hover {
+  background-color: #bee5d5;
+}
+.arrow {
+  width: 40%;
+  position: relative;
+  top: -200px;
+  left: -170px;
+  z-index: 1;
+}
+.ToolBox {
+  width: 630px;
+  height: 910px;
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 150px;
+  left: 1230px;
+  border-style: none;
+}
+.ToolBox button {
+  position: relative;
+  top: 30px;
+  left: 190px;
+  margin-right: 20px;
+  background-color: #fcfcfc;
+  border: none;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
