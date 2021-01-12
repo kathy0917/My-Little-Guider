@@ -12,8 +12,8 @@
 }
 body,
 html {
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
   background-color: #fffbcb;
 }
 .header {
@@ -49,11 +49,11 @@ html {
 }
 .artboard {
   width: 1123px;
-  height: 794px;
+  height: 700px;
   background-color: #fcfcfc;
   position: absolute;
   top: 150px;
-  left: 70px;
+  left: 225px;
   box-shadow: 3px 3px 3px#c9c4c4;
   border-radius: 10px;
   border-style: none;
@@ -105,12 +105,12 @@ html {
   z-index: 1;
 }
 .ToolBox {
-  width: 630px;
-  height: 910px;
+  width: 310px;
+  height: 700px;
   background-color: #fcfcfc;
   position: absolute;
   top: 150px;
-  left: 1230px;
+  left: 1500px;
   border-style: none;
 }
 .ToolBox button {
